@@ -1,0 +1,135 @@
+/* Edit this to override font and/or sizes set in w3pro.css*/
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+/* DMZ added in order to use opacity on background image*/
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+}
+.bgimg-1:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: .4;
+    background-image: url("../images/one_dollar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a, a:hover,
+a:focus {
+  text-decoration-line: none
+}
+.snug p {
+  margin: 0
+}
+.snug h4 {
+  margin-bottom: 0
+}
+.snug p:last-of-type {
+  margin-bottom: 10px
+}
+button:hover {
+  text-decoration: none
+}
+
+.results {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.results table, .scrollit {
+  max-width: 800px;
+  width: 100%;  
+}
+.results table {
+  line-height: 1.2;
+  margin: auto;
+}
+.results thead, .results table:first-child, .results thead tr {
+  padding-right: 20px;
+}
+
+.results td, .results th {
+  padding: 0 10px;
+}
+.results td {
+  text-align: left;
+}
+.results td:nth-child(3) {
+  text-align: right;
+}
+.results td:nth-child(1), .results th:nth-child(1) { 
+  width: 35%;
+}
+.results td:nth-child(2), .results th:nth-child(2) { 
+  width: 15%;
+}
+.results td:nth-child(3), .results th:nth-child(3) {
+  width: 15%;
+}
+.results th { 
+  text-align: center;
+}
+td {
+  border: 1px solid darkgrey;
+  border-collapse: collapse;
+}
+.scrollit {
+  border: 1px solid darkgrey;
+/*  overflow-x:hidden;*/
+/*  overflow-y:scroll;*/
+  overflow:scroll;
+  height:115px;
+  margin: 0 auto;
+}
+.entry p {
+  margin-bottom: 0;
+}
+.entry select, .entry input {
+  width: 100%;
+  padding: 0;
+}
+
+/*
+.w3-third {
+  padding:0 8px;
+}
+*/
+.w3-third p {
+    display: inline;
+}
+.w3-half div {
+  padding-right: 16px;
+}
+.w3-half div:last-child {
+  padding-right: 0;
+}
+.entry {
+  margin: 32px 0;
+}
+.subMenu {
+  line-height: .5;
+}
